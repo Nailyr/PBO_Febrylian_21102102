@@ -16,10 +16,6 @@ public class MultiException {
             int hasil = bil1/bil2;
             System.out.println(bil1 + " / " + bil2 + " = " + hasil + "(dibulatkan");
         }
-//
-//        catch(ArithmeticException | InputMismatchException e){
-//            System.out.println("Error: Program tidak dapat diproses :(");
-//        }
 
         // Multiple Catch
         catch(ArithmeticException e){
